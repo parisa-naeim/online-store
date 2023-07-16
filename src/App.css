@@ -1,8 +1,9 @@
-.header{
-height: 70px;
+.header {
+  height: 70px;
+  text-align: center;
 }
-.footer{
-    height: 70px;
-    position: absolute;
-    bottom: 0;
+.footer {
+  height: 70px;
+  position: absolute;
+  bottom: 0;
 }
