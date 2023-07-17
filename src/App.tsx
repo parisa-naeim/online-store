@@ -8,7 +8,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Item></Item>
+      <Item name="apple" description="red" price={10}></Item>
+      <Item name="orange" description="orange" price={20}></Item>
       <Footer></Footer>
     </>
   );

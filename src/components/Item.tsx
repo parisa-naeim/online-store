@@ -1,14 +1,21 @@
-function Item() {
+interface Props {
+  name: string;
+  description: string;
+  price: number;
+}
+
+function Item(props: Props) {
   return (
     <div className="card">
       <div className="card-body">
-        <p>name</p>
-        <p>description</p>
-        <p>price</p>
+        <p>{props.name}</p>
+        <p>{props.description}</p>
+        <p>{props.price}</p>
       </div>
     </div>
   );
 }
+
 export default Item;
 {
   /* <div class="card" style="width: 18rem;">
