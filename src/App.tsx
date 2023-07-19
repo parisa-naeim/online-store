@@ -32,7 +32,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      {listItem(getItems())}
+      <div className="container">
+        <div className="row">{listItem(getItems())}</div>
+      </div>
 
       <Footer></Footer>
     </>

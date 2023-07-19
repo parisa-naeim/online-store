@@ -6,16 +6,18 @@ interface Props {
 
 function Item(props: Props) {
   return (
-    <div className="card">
-      <img
-        className="card-img-top"
-        src={`../../pictures/${props.name}.jpg`}
-        alt="Card image cap"
-      ></img>
-      <div className="card-body">
-        <p>{props.name}</p>
-        <p>{props.description}</p>
-        <p>{props.price}</p>
+    <div className="col-sm">
+      <div className="card">
+        <img
+          className="card-img-top"
+          src={`../../pictures/${props.name}.jpg`}
+          alt="Card image cap"
+        ></img>
+        <div className="card-body">
+          <p>{props.name}</p>
+          <p>{props.description}</p>
+          <p>{props.price}</p>
+        </div>
       </div>
     </div>
   );
