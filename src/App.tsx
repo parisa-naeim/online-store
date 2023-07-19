@@ -26,6 +26,18 @@ function App() {
       { name: "apple", description: "ddd", price: 1 },
       { name: "pear", description: "ddd", price: 1 },
       { name: "banana", description: "ddd", price: 1 },
+
+      { name: "apple", description: "ddd", price: 1 },
+      { name: "pear", description: "ddd", price: 1 },
+      { name: "banana", description: "ddd", price: 1 },
+
+      { name: "apple", description: "ddd", price: 1 },
+      { name: "pear", description: "ddd", price: 1 },
+      { name: "banana", description: "ddd", price: 1 },
+
+      { name: "apple", description: "ddd", price: 1 },
+      { name: "pear", description: "ddd", price: 1 },
+      { name: "banana", description: "ddd", price: 1 },
     ];
   }
 

@@ -6,7 +6,7 @@ interface Props {
 
 function Item(props: Props) {
   return (
-    <div className="col-sm">
+    <div className="col-sm-2">
       <div className="card">
         <img
           className="card-img-top"
