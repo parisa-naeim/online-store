@@ -21,14 +21,19 @@ function App() {
     ));
   }
 
+  function getItems() {
+    return [
+      { name: "aaa", description: "ddd", price: 1 },
+      { name: "aaa", description: "ddd", price: 1 },
+      { name: "aaa", description: "ddd", price: 1 },
+    ];
+  }
+
   return (
     <>
       <Header></Header>
-      {listItem([
-        { name: "aaa", description: "ddd", price: 1 },
-        { name: "aaa", description: "ddd", price: 1 },
-        { name: "aaa", description: "ddd", price: 1 },
-      ])}
+      {listItem(getItems())}
+
       <Footer></Footer>
     </>
   );
