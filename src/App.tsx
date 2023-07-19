@@ -4,12 +4,31 @@ import "./App.css";
 import Item from "./components/Item";
 import "bootstrap/dist/css/bootstrap.css";
 
+interface ItemInterface {
+  name: string;
+  description: string;
+  price: number;
+}
+
 function App() {
+  function listItem(arr: ItemInterface[]) {
+    return arr.map((item) => (
+      <Item
+        name={item.name}
+        description={item.description}
+        price={item.price}
+      />
+    ));
+  }
+
   return (
     <>
       <Header></Header>
-      <Item name="apple" description="red" price={10}></Item>
-      <Item name="orange" description="orange" price={20}></Item>
+      {listItem([
+        { name: "aaa", description: "ddd", price: 1 },
+        { name: "aaa", description: "ddd", price: 1 },
+        { name: "aaa", description: "ddd", price: 1 },
+      ])}
       <Footer></Footer>
     </>
   );
